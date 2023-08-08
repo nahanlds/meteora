@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?família=Inter:wght@300;400;500;700&display=swap');
+:root {
+    --cor-cinza: #cccccc;
+    --cor-preto: #000000;
+    --cor-verde: #daff01;
+    --cor-roxo: #9353ff;
+    --cor-coral: #ee6471;
+    --cor-laranja: #f87f46;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'inter', sans-serif;
+    width: 100%;
+}
+
+
+.produtos-itens button {
+    padding: 0.25rem;
+    color: #fff;
+    background-color: #9353ff;
+    border: none;
+    border-radius: 0.25rem;
+}
+
+.redes {
+    color: #fff;
+    text-align: center;
+    margin-top: 2rem;
+
+}
+.redes h4 {
+    color: #daff01;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 23px;
+}
+
+.redes p {
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+.redes-item {
+    width: 320px;
+}
+.newsletter {
+    border: 1px solid #000000;
+    max-width: 80%;
+}
+.newsletter button {
+    padding: 0.3rem;
+    color: #fff;
+    background-color: #9353ff;
+    border: none;
+}
+
+footer {
+    background-color: #000000;
+    color: #fff;
+}
